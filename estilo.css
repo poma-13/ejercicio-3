@@ -46,6 +46,27 @@ margin-bottom: 3px;
 .icono_dos{
   font-size: 27px;
 }
+.imagen{
+   max-width: 100%
+}
+.microsoft_titulo{
+  text-align: center;
+
+}
+.microsoft_parrafo{
+text-align: center;
+}
+.microsoft_linck {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.microsoft_border {
+  border: solid 2px
+darkgoldenrod;
+margin-bottom: 10px;
+}
 
 @media (min-width: 768px){  
   .header_listado{
@@ -65,36 +86,6 @@ padding-right:10px;
 
 @media (min-width:992px) {  
 
- .menu_amburguesa{
- display: none;
- }
- .microsoft_imagen-principal{
-   position: relative;
- }
- .microsoft_parrafo-principal{
-  position: absolute;
-  bottom: 0;
-  padding-left: 115px;
-}
- }
- .microsoft_titulo{
-  color: white;
-  font-size: 40px;
- }
- .microsoft_parrafo{
-  color: white;
- }
- .microsoft_linck{
-  display: flex;
-  justify-content: space-between;
- }
- .microsoft_border{
-  border: solid 1px white;
- }
- .microsoft_hogar{
-   color:white;
-   text-decoration: none;
- }
-
+ 
 
  }
