@@ -53,8 +53,25 @@ margin-bottom: 3px;
   text-align: center;
 
 }
+.microsoft_hogar{
+  border: solid 2px
+  #d83b01;
+padding: 5px 50px 5px 50px;
+text-decoration: none;
+background-color: #d83b01;
+color:white;
+}
+.microsoft_empresa{
+  border: solid 2px
+  #d83b01;
+padding: 5px 36px 5px 35px;
+text-decoration: none;
+background-color: #d83b01;
+color:white;
+}
 .microsoft_parrafo{
 text-align: center;
+
 }
 .microsoft_linck {
   display: flex;
@@ -63,9 +80,73 @@ text-align: center;
   align-items: center;
 }
 .microsoft_border {
-  border: solid 2px
-darkgoldenrod;
-margin-bottom: 10px;
+  margin-bottom: 31px;
+}
+.imagen_dos{
+  max-width: 100%;
+}
+.microsoft_parrafo-principal{
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+.microsoft_que-es-oficce{
+  padding: 20px;
+  padding-top:80px;
+}
+.microsoft_parrafo_imagen{
+  background-color: #f1eded;
+}
+.microsoft_informacion{
+  text-align: center;
+padding-top: 80px;
+
+}
+.microsoft_informacion_div{
+  display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+padding-top: 60px;
+}
+.microsoft_informacion_link{
+  color: #0067b8;
+}
+
+
+.footer_listado_ul{
+  display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 0;
+}
+.footer_listado_ul li{
+  list-style: none;
+}
+.footer_listado_ul li i{
+  padding-left: 15px;
+  font-size: 25px;
+}
+.footer_raya{
+  display: flex;
+  padding: 20px;
+  border-top: solid 1px
+  gray;
+  margin-top: 150px;
+}
+.footer.contenido {
+  margin:20px;
+}
+.footer_ul_listado{
+  padding: 0;
+ line-height: 33px;
+}
+.footer_ul_listado li{
+  line-height: 33px;
+  list-style: none;
+}
+.footer_link{
+  text-decoration: none;
 }
 
 @media (min-width: 768px){  
